@@ -3,6 +3,8 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { SiDiscord } from "react-icons/si";
 
+import Link from "next/link";
+
 const Hero = () => {
   return (
     <>
@@ -22,7 +24,11 @@ const Hero = () => {
             </div>
             <ul className="flex list-none gap-8 uppercase text-xl font-bold text-white">
               <li className="text-orange-600">Home</li>
-              <li className="hover:text-orange-600">About us</li>
+              <li className="hover:text-orange-600 pointer">
+                <Link href="/">
+                  <a>Home</a>
+                </Link>
+              </li>
               <li className="hover:text-orange-600">trek</li>
               <li className="hover:text-orange-600">blog</li>
               <li className="hover:text-orange-600">contact</li>

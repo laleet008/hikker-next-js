@@ -1,5 +1,5 @@
-/* import React, { useState } from "react";
-import blog from "../newApi/blog";
+import React, { useState } from "react";
+import blog from "../pages/newApi/blog";
 import { FaClock } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
 
@@ -80,4 +80,3 @@ const Blog = () => {
 };
 
 export default Blog;
- */
