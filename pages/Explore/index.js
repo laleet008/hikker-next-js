@@ -7,8 +7,8 @@ import { IoIosPeople } from "react-icons/io";
 const Explore = () => {
   return (
     <>
-      <div className="my-16">
-        <div className="">
+      <div className="">
+        <div className="my-40">
           <div className="flex justify-between mx-16 gap-8 mt-[-180px]  relative ">
             <div className="w-[550px] shadow-lg bg-white ">
               <div className="ml-8">

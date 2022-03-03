@@ -69,3 +69,45 @@ a {
 .img-container-journey:hover .overlay {
   opacity: 1;
 }
+
+.hero_container {
+  background-image: url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+
+  height: 120vh;
+}
+
+.horizontal_line {
+  width: 60px;
+  border: 0.5px solid #1791a0;
+  background-color: #1791a0;
+  position: relative;
+}
+
+.about_container {
+  background-image: url("https://images.pexels.com/photos/5480713/pexels-photo-5480713.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+
+  height: 70vh;
+}
+.destination_container {
+  background-image: url("https://images.pexels.com/photos/2735739/pexels-photo-2735739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+
+  height: 70vh;
+}
+
+.blog_container {
+  background-image: url("https://images.pexels.com/photos/8376089/pexels-photo-8376089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+
+  height: 80vh;
+}

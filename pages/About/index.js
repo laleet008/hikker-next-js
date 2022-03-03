@@ -1,12 +1,33 @@
 import React from "react";
-import Layout from "../../components/Layout";
+
 import { FaQuoteLeft } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
+import Layout from "../../components/Layout";
+import Navbar from "../Navbar";
 
 const About = () => {
   return (
     <Layout>
-      <div className="m-16 flex justify-between">
+      <div className="about_container">
+        <Navbar />
+        <div className="flex  ">
+          <div className="flex  w-full">
+            <div className="relative text-[180px] flex ml-60 mt-40 text-gray-600 font-medium">
+              ABOUT US
+            </div>
+            <div className="absolute flex flex-col  items-center mt-[260px] ml-[430px]">
+              <h1 className="text-[50px] font-sans text-white text-bold">
+                ABOUT US
+              </h1>
+              <p className="text-2xl text-white w-[600px] flex items-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor fjdfj fdkfjd ierei ierierei eifreirfe eifrejire
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="m-16 mt-40 flex justify-between">
         <div>
           <div className="flex gap-8">
             <FaQuoteLeft className="text-orange-600 text-6xl mt-2" />
