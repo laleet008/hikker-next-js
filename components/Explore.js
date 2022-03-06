@@ -10,7 +10,11 @@ const Explore = () => {
       <div className="my-16">
         <div className="">
           <div className="flex justify-between mx-16 gap-8 mt-[-180px]  relative ">
-            <div className="w-[550px] shadow-lg bg-white ">
+            <div
+              className="w-[550px] shadow-lg bg-white "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div className="ml-8">
                 <FaMapMarkedAlt className="text-5xl text-orange-600" />
                 <h1 className=" text-black text-2xl font-medium my-4">
@@ -30,7 +34,11 @@ const Explore = () => {
               </div>
             </div>
             {/* second */}
-            <div className="w-[550px] shadow-lg bg-white ">
+            <div
+              className="w-[550px] shadow-lg bg-white "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div className="ml-8 ">
                 <MdOutlineSecurity className="text-4xl text-orange-600" />
                 <h1 className=" text-black text-2xl font-medium my-4">
@@ -51,7 +59,11 @@ const Explore = () => {
             </div>
 
             {/* 3rd */}
-            <div className="w-[550px] shadow-lg h-[300px] bg-white ">
+            <div
+              className="w-[550px] shadow-lg h-[300px] bg-white "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div className="ml-8">
                 <IoIosPeople className="text-4xl text-orange-600" />
                 <h1 className=" text-black text-2xl font-medium my-4">

@@ -8,10 +8,18 @@ const Blog = () => {
   return (
     <div className="my-32 mx-16">
       <div className="flex flex-col items-center">
-        <h1 className="relative uppercase text-[120px] text-gray-200 font-bold tracking-tighter flex">
+        <h1
+          className="relative uppercase text-[120px] text-gray-200 font-bold tracking-tighter flex"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           our blog
         </h1>
-        <p className="absolute mt-20  uppercase tracking-wider ml-2 font-bold  text-3xl">
+        <p
+          className="absolute mt-20  uppercase tracking-wider ml-2 font-bold  text-3xl"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           latest blog
         </p>
         <p className="w-[600px] text-gray-500 flex align-center">
@@ -27,7 +35,12 @@ const Blog = () => {
             if (index < 2) {
               return (
                 <div className="flex gap-10" key={id}>
-                  <img src={img} alt="" className="h-[320px] w-[300px]" />
+                  <img
+                    src={img}
+                    alt=""
+                    className="h-[320px] w-[300px]"
+                    data-aos="flip-right"
+                  />
                   <div className="mt-7">
                     <h1 className="text-2xl font-bold w-[300px]">{title}</h1>
                     <div className="flex mt-5 gap-2 text-gray-500">
@@ -54,7 +67,12 @@ const Blog = () => {
             if (index > 1) {
               return (
                 <div className="flex gap-10" key={id}>
-                  <img src={img} alt="" className="h-[320px] w-[300px]" />
+                  <img
+                    src={img}
+                    alt=""
+                    className="h-[320px] w-[300px]"
+                    data-aos="flip-left"
+                  />
                   <div className="mt-7">
                     <h1 className="text-2xl font-bold w-[300px]">{title}</h1>
                     <div className="flex mt-5 gap-2 text-gray-500">

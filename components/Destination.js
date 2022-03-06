@@ -9,10 +9,18 @@ const Destination = () => {
       <div className="mx-16 mb-16">
         <div className="flex mt-8 justify-between ">
           <div className="flex flex-col">
-            <h1 className="relative destination text-[120px] text-gray-200 font-bold tracking-tighter flex">
+            <h1
+              className="relative destination text-[120px] text-gray-200 font-bold tracking-tighter flex"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
               DESTINATION
             </h1>
-            <p className="absolute mt-16 tracking-wider ml-2 font-bold  text-3xl">
+            <p
+              className="absolute mt-16 tracking-wider ml-2 font-bold  text-3xl"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               MOST POPULAR TREKKING
             </p>
             <p className="w-[600px] text-gray-500">
@@ -32,7 +40,12 @@ const Destination = () => {
               destination;
 
             return (
-              <div key={id}>
+              <div
+                key={id}
+                data-aos="fade-up"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="1000"
+              >
                 <div className="flex">
                   <img
                     src={img}

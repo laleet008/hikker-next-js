@@ -1,36 +1,58 @@
 import React from "react";
 
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
-import { SiDiscord } from "react-icons/si";
-
-import Link from "next/link";
 import Navbar from "../pages/Navbar";
 
 const Hero = () => {
   return (
     <>
       <div className="hero_container">
-        <Navbar className="absolute" />
+        <Navbar className="" />
 
-        <hr className="fixed  horizontal_line  border-gray-400 w-full" />
+        <hr className=" absolute mt-28  border-gray-100 w-full" />
 
-        <div className="flex">
-          <div className="relative text-[280px] flex ml-60 mt-40 text-gray-600 font-medium">
+        <div className="flex ml-32 ">
+          <div
+            className=" text-[200px] flex ml-60  mt-52 main-header text-gray-500 font-bold "
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-duration="2000"
+          >
             HIKKER
           </div>
-          <div className="flex flex-col absolute mt-[350px]  ml-16 items-center">
-            <h1 className="text-[50px] font-sans text-white text-bold">
-              BE PREPARED FOR THE MOUNTAINS AND BEYOND HIKKER
+          <div className="flex flex-col absolute mt-[340px]   items-center">
+            <h1
+              className="text-[60px] flex items-center w-[1200px] text-center text-white font-bold "
+              data-aos="fade-right"
+              data-aos-anchor="#example-anchor"
+              data-aos-duration="2000"
+            >
+              BE PREPARED FOR THE MOUNTAINS AND BEYOND
+              {/* <div className=" items centerml-24">AND BEYOND</div> */}
             </h1>
-            <p className="text-2xl text-gray-300 w-[600px]  flex items-center">
+            <p
+              className="text-2xl text-gray-300 w-[600px] text-center flex items-center "
+              data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-duration="2000"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor fjdfj fdkfjd ierei ierierei eifreirfe eifrejire
             </p>
-            <div className="flex gap-5 mt-8">
-              <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-6 uppercase">
+            <div className="flex gap-5 mt-8 ">
+              <button
+                data-aos="fade-right"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="2000"
+                className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-6 uppercase"
+              >
                 Contact Us
               </button>
-              <button className="bg-transparent  outline  outline-2	 text-white font-bold py-4 px-6 uppercase">
+              <button
+                data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="2000"
+                className="bg-transparent  outline  outline-2	 text-white font-bold py-4 px-6 uppercase"
+              >
                 Watch intro
               </button>
             </div>

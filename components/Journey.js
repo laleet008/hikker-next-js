@@ -7,10 +7,16 @@ const Journey = () => {
     <>
       <div className="mt-32 mb-16 ">
         <div className="flex flex-col  items-center">
-          <h1 className="relative destination text-[90px] text-gray-200 font-bold tracking-tighter flex">
+          <h1
+            className="relative destination text-[90px] text-gray-200 font-bold tracking-tighter flex"
+            data-aos="fade-right"
+          >
             JOURNEYS
           </h1>
-          <p className="absolute mt-12 tracking-wider ml-2 font-bold  text-3xl">
+          <p
+            className="absolute mt-12 tracking-wider ml-2 font-bold  text-3xl"
+            data-aos="fade-left"
+          >
             GALLERY OF OUR TOURS
           </p>
           <p className="w-[500px] ml-16 text-gray-500">
@@ -18,7 +24,7 @@ const Journey = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
-        <div className="flex mx-16 gap-8 mt-16 ">
+        <div className="flex mx-16 gap-8 mt-16 " data-aos="fade-up">
           {journeyData.map((journey) => {
             const { id, title, img, des } = journey;
             return (

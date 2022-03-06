@@ -11,10 +11,16 @@ const Testimonials = () => {
   return (
     <div>
       <div className="flex flex-col  items-center">
-        <h1 className="relative destination uppercase text-[90px] text-gray-200 font-bold tracking-tighter flex">
+        <h1
+          data-aos="fade-right"
+          className="relative destination uppercase text-[90px] text-gray-200 font-bold tracking-tighter flex"
+        >
           testimonials
         </h1>
-        <p className="absolute mt-12 tracking-wider ml-2 font-bold  text-3xl">
+        <p
+          className="absolute mt-12 tracking-wider ml-2 font-bold  text-3xl"
+          data-aos="fade-left"
+        >
           WHAT THE SAY ABOUT HIKKER
         </p>
         <p className="w-[500px] ml-16 text-gray-500">
@@ -22,7 +28,11 @@ const Testimonials = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua
         </p>
       </div>
-      <div className="bg-gray-100 m-16 ">
+      <div
+        className="bg-gray-100 m-16  "
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
         <div className="flex justify-around mx-24 item-center align-center ">
           <div className="flex my-16">
             <img
@@ -53,7 +63,11 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className="m-36 flex justify-between">
+      <div
+        className="m-36 flex justify-between"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
         <div className="flex gap-4">
           <FaRegCalendarAlt className="text-orange-600 text-6xl" />
           <div>

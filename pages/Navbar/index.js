@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-// import Link from "next/Link";
 
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { SiDiscord } from "react-icons/si";
@@ -24,17 +23,17 @@ const Navbar = () => {
               </li>
 
               <li className="hover:text-orange-600">
-                <Link href="about">
+                <Link href="/about">
                   <a>About us</a>
                 </Link>
               </li>
               <li className="hover:text-orange-600">
-                <Link href="destination">
+                <Link href="/destination">
                   <a>Trek</a>
                 </Link>
               </li>
               <li className="hover:text-orange-600">
-                <Link href="blog">
+                <Link href="/blog">
                   <a>Blog</a>
                 </Link>
               </li>

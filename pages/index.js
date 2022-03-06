@@ -9,6 +9,7 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Journey from "../components/Journey";
 import Testimonials from "../components/Testimonials";
+// import Trip from "../components/Trip";
 import Blog from "../components/Blog";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Services />
       <Journey />
       <Testimonials />
+      {/* <Trip /> */}
       <Blog />
     </Layout>
   );

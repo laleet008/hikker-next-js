@@ -9,7 +9,7 @@ const Services = () => {
     <div className="bg-black ">
       <div className="flex ">
         <div className=" mt-24 mb-12">
-          <div className="flex flex-col ml-32">
+          <div className="flex flex-col ml-32 " data-aos="fade-right">
             <h1 className="relative destination text-[80px] uppercase text-gray-700 font-bold tracking-tighter flex">
               why hikker
             </h1>
@@ -18,7 +18,11 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="mb-[-120px]">
+          <div
+            className="mb-[-120px]"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <img
               src="https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
               alt=""
