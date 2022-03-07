@@ -4,11 +4,18 @@
 
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Oswald:wght@500;600&family=Poppins:ital,wght@0,400;0,500;0,600;1,300;1,600&display=swap");
 
+@layer base {
+  html {
+    @apply font-sans;
+  }
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
 }
 
 a {
@@ -25,7 +32,7 @@ p {
 }
 
 .destination {
-  font-family: "Oswald", sans-serif;
+  /* font-family: "Oswald", sans-serif; */
 }
 
 .destination-img {
@@ -74,7 +81,12 @@ p {
 }
 
 .hero_container {
-  background-image: url("https://images.pexels.com/photos/6564727/pexels-photo-6564727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(14, 18, 37, 0.52),
+      rgba(31, 23, 29, 0.73)
+    ),
+    url("https://images.pexels.com/photos/1313578/pexels-photo-1313578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position: center; */
@@ -83,9 +95,9 @@ p {
 }
 
 .horizontal_line {
-  width: 60px;
-  border: 0.5px solid #1791a0;
-  background-color: #1791a0;
+  /* width: 60px; */
+  /* border: 0.2px solid #1791a0;
+  background-color: #1791a0; */
   position: relative;
 }
 
@@ -126,4 +138,11 @@ p {
 
 .main-header {
   font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+.icon_social {
+  font-size: 1rem;
+  transition-duration: 0.3s;
+  transition-property: transform;
 }

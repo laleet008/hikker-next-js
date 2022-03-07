@@ -10,7 +10,7 @@ const Destination = () => {
         <div className="flex mt-8 justify-between ">
           <div className="flex flex-col">
             <h1
-              className="relative destination text-[120px] text-gray-200 font-bold tracking-tighter flex"
+              className="relative destination text-[100px] text-gray-200 font-bold tracking-tighter flex"
               data-aos="fade-right"
               data-aos-duration="1500"
             >

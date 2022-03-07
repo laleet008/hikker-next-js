@@ -9,7 +9,7 @@ const Explore = () => {
     <>
       <div className="my-16">
         <div className="">
-          <div className="flex justify-between mx-16 gap-8 mt-[-180px]  relative ">
+          <div className="flex md:flex-row flex-col justify-between mx-16 gap-8 mt-[-180px]  relative ">
             <div
               className="w-[550px] shadow-lg bg-white "
               data-aos="fade-up"
@@ -84,12 +84,12 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="flex ml-[450px] mt-16 mb-16">
+        <div className="flex md:gap-0 gap-0 md:ml-[450px] ml-16 md:mt-16 mt-8 mb-16">
           <p className="text-lg">
             Don’t hesitate to contact us to get better Information.
           </p>
 
-          <h1 className="ml-4 uppercase font-bold text-lg text-orange-600">
+          <h1 className="md:ml-4 uppercase font-bold text-lg text-orange-600">
             explore all trekking
           </h1>
           <FiArrowRight className="text-lg text-orange-600 mt-1 ml-4" />

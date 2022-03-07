@@ -13,17 +13,17 @@ const Testimonials = () => {
       <div className="flex flex-col  items-center">
         <h1
           data-aos="fade-right"
-          className="relative destination uppercase text-[90px] text-gray-200 font-bold tracking-tighter flex"
+          className="relative destination md:text-[100px] uppercase text-[60px] text-gray-200 font-bold tracking-tighter flex"
         >
           testimonials
         </h1>
         <p
-          className="absolute mt-12 tracking-wider ml-2 font-bold  text-3xl"
+          className="absolute mt-12 tracking-wider md:block hidden  ml-2 font-bold  text-3xl"
           data-aos="fade-left"
         >
           WHAT THE SAY ABOUT HIKKER
         </p>
-        <p className="w-[500px] ml-16 text-gray-500">
+        <p className="md:w-[500px] w-35px ml-16 text-gray-500">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua
         </p>
@@ -33,19 +33,19 @@ const Testimonials = () => {
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-        <div className="flex justify-around mx-24 item-center align-center ">
-          <div className="flex my-16">
+        <div className="flex md:flex-row flex-col mx-8 md:justify-around md:mx-24 md:item-center md:align-center ">
+          <div className="flex  md:my-16 mt-4">
             <img
               src="https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
               alt=""
-              className="relative rounded-full h-[180px] w-[180px] border-8 border-gray-300"
+              className="md:relative rounded-full md:h-[180px] md:w-[180px] h-[100px] w-[100px] border-8 border-gray-300"
             />
-            <div className="absolute rounded-full h-12 w-12  mt-10 border-4 bg-orange-600  border-gray-300 ml-36 items-center flex ">
+            <div className="absolute rounded-full md:h-12 md:w-12  mt-6 ml-20 md:mt-10 border-4 bg-orange-600  border-gray-300 md:ml-36 items-center flex ">
               <FaQuoteLeft className="text-white  text-xl ml-2" />
             </div>
           </div>
           <div className="my-16">
-            <p className="w-[600px] text-xl italic text-gray-500">
+            <p className="md:w-[600px] w-[350px] text-xl italic text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim
               ad minim veniam, quis nostrud exercitation ullamco
@@ -64,7 +64,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div
-        className="m-36 flex justify-between"
+        className="md:m-36 ml-32 flex flex-col md:flex-row gap-8 md:justify-between"
         data-aos="fade-left"
         data-aos-duration="1000"
       >

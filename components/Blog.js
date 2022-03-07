@@ -6,35 +6,38 @@ import { FiArrowRight } from "react-icons/fi";
 const Blog = () => {
   const [blogData, setBlogData] = useState(blog);
   return (
-    <div className="my-32 mx-16">
+    <div className="md:my-32 my-16 md:mx-16 mx-8">
       <div className="flex flex-col items-center">
         <h1
-          className="relative uppercase text-[120px] text-gray-200 font-bold tracking-tighter flex"
+          className="relative uppercase md:text-[100px] text-[60px] text-gray-200 font-bold tracking-tighter flex"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
           our blog
         </h1>
         <p
-          className="absolute mt-20  uppercase tracking-wider ml-2 font-bold  text-3xl"
+          className="absolute md:mt-16 md:block hidden  uppercase tracking-wider ml-2 font-bold text-xl md:text-3xl"
           data-aos="fade-left"
           data-aos-duration="1000"
         >
           latest blog
         </p>
-        <p className="w-[600px] text-gray-500 flex align-center">
+        <p className="md:w-[600px] w-[350px] text-gray-500 flex align-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua
         </p>
       </div>
-      <div className="flex mt-12 gap-12 ">
+      <div className="flex md:flex-row flex-col mt-12 gap-12 ">
         <div className="flex flex-col gap-8 mt-8">
           {blogData.map((blog, index) => {
             const { id, title, img, date, des } = blog;
 
             if (index < 2) {
               return (
-                <div className="flex gap-10" key={id}>
+                <div
+                  className="flex md:flex-row flex-col md:gap-10 gap-4"
+                  key={id}
+                >
                   <img
                     src={img}
                     alt=""
@@ -66,7 +69,7 @@ const Blog = () => {
 
             if (index > 1) {
               return (
-                <div className="flex gap-10" key={id}>
+                <div className="flex md:flex-row flex-col gap-10" key={id}>
                   <img
                     src={img}
                     alt=""

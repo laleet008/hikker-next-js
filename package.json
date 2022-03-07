@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@popperjs/core": "2.4.4",
     "aos": "^2.3.4",
     "next": "12.1.0",
     "next-images": "^1.8.4",

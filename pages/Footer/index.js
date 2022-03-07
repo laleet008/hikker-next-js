@@ -15,14 +15,11 @@ const Footer = () => {
       <div className="pt-16  ml-16 md:mr-24mt-16 flex text-white justify-around  md:flex-row gap-6 flex-col md:gap-0 ">
         <div className="" data-aos="fade-left" data-aos-duration="500">
           <div className="flex   ">
-            <FaMountain className="text-3xl" />
-            <div className="flex flex-col ml-4">
-              <h1 className="logo_text ml-4 text-3xl text-bold text-white uppercase">
-                {" "}
-                hikker
-              </h1>
-              <p>Hiking and trekking</p>
-            </div>
+            <img
+              src="https://templatekit.jegtheme.com/hikker/wp-content/uploads/sites/139/2021/08/logo.png"
+              alt=""
+              className="h-14 mb-4"
+            />
           </div>
           <div className="flex flex-col mt-4 gap-1 text-lg">
             <p>
@@ -141,7 +138,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="lower_footer mt-8  text-gray-400">
+      <div className="mx-20">
+        <hr className="mt-16 border-gray-100 w-full" />
+      </div>
+
+      <div className="lower_footer mt-4  text-gray-400">
         <div className="md:ml-32 ml-16 md:mr-24 flex  md:flex-row flex-col md:gap-0 gap-8 justify-between py-7">
           <div>
             <h2>Hiking & Trekking Mountain Template Kit by Jegtheme</h2>
