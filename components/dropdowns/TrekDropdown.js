@@ -11,7 +11,7 @@ const Dropdown = () => {
 
   const openDropdownPopover = () => {
     createPopper(btnDropdownRef.current, popoverDropdownRef.current, {
-      placement: "bottom-start",
+      placement: "top-start",
     });
     setDropdownPopoverShow(true);
   };
@@ -37,31 +37,33 @@ const Dropdown = () => {
                 Treks <FaChevronDown className="mt-1 ml-2" />
               </a>
             </button>
-            <div
-              ref={popoverDropdownRef}
-              className={
-                (dropdownPopoverShow ? "block " : "hidden ") +
-                "bg-white absolute float-left list-none text-left flex flex-col gap-4 py-8 w-48  "
-              }
-            >
-              <Link
-                href="/destination"
-                className="text-sm py-2 px-4 font-normal  w-full block "
-                onClick={(e) => e.preventDefault()}
+            <div className="my-7">
+              <div
+                ref={popoverDropdownRef}
+                className={
+                  (dropdownPopoverShow ? "block  " : "hidden ") +
+                  "bg-white absolute float-left list-none text-left px-4 flex flex-col gap-4 py-8 w-48  "
+                }
               >
-                <a className=" hover:text-orange-600 uppercase text-black">
-                  trek
-                </a>
-              </Link>
-              <Link
-                href="/"
-                className="text-sm py-2 mt-4 px-4 font-normal  w-full block"
-                onClick={(e) => e.preventDefault()}
-              >
-                <a className=" hover:text-orange-600 uppercase text-black">
-                  trak details
-                </a>
-              </Link>
+                <Link
+                  href="/destination"
+                  className="text-sm py-2 px-4 font-normal  w-full block "
+                  onClick={(e) => e.preventDefault()}
+                >
+                  <a className=" hover:text-orange-600 uppercase tracking-[5px] font-medium text-black">
+                    trek
+                  </a>
+                </Link>
+                <Link
+                  href="/"
+                  className="text-sm py-2 mt-4 px-4 font-normal  w-full block"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  <a className=" hover:text-orange-600 uppercase text-black">
+                    trek details
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

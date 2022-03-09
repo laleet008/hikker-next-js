@@ -10,12 +10,14 @@ const Journey = () => {
           <h1
             className="relative destination md:text-[100px] text-[60px] text-gray-200 font-bold tracking-tighter flex"
             data-aos="fade-right"
+            data-aos-duration="2000"
           >
             JOURNEYS
           </h1>
           <p
             className="absolute mt-12 hidden md:block tracking-wider ml-2 font-bold  text-3xl"
             data-aos="fade-left"
+            data-aos-duration="2000"
           >
             GALLERY OF OUR TOURS
           </p>

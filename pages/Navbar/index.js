@@ -46,20 +46,20 @@ const Navbar = () => {
               </div>
             </div>
 
-            <ul className="flex  mt-2 list-none gap-8  uppercase text-base font-semibold text- text-white text-4">
-              <li className="text-orange-600">
+            <ul className="flex  mt-2 list-none gap-8  uppercase text-base font-medium text- text-white text-4">
+              <li className="text-orange-600 ">
                 <Link href="/">
-                  <a>Home</a>
+                  <a className="tracking-[2px]	">Home</a>
                 </Link>
               </li>
 
               <li className="hover:text-orange-600">
                 <Link href="/about">
-                  <a>About us</a>
+                  <a className="tracking-[2px]">About us</a>
                 </Link>
               </li>
               <li>
-                <Dropdown />
+                <Dropdown className="tracking-[3px]" />
               </li>
               <li>
                 <PagesDropdown />
@@ -70,20 +70,20 @@ const Navbar = () => {
 
               {/*  */}
 
-              <li className="hover:text-orange-600">contact</li>
+              <li className="hover:text-orange-600 tracking-[2px]">contact</li>
             </ul>
 
             <div className="flex gap-4 text-xl mt-2 ">
-              <div className="h-8 w-8 bg-white rounded-full text-orange-600 hover:bg-orange-600 hover:text-white  flex items-center cursor-pointer justify-center">
+              <div className="h-8 w-8 bg-white rounded-full text-red-500 hover:bg-orange-600 hover:text-white  flex items-center cursor-pointer justify-center">
                 <FaFacebookF className="   icon_social" />
               </div>
-              <div className="h-8 w-8 bg-white rounded-full hover:bg-orange-600 hover:text-white text-orange-600 flex items-center justify-center cursor-pointer">
+              <div className="h-8 w-8 bg-white rounded-full hover:bg-orange-600 hover:text-white text-red-500 flex items-center justify-center cursor-pointer">
                 <FaInstagram className="    icon_social" />
               </div>
-              <div className="h-8 w-8 bg-white rounded-full hover:bg-orange-600 text-orange-600 hover:text-white flex items-center justify-center cursor-pointer">
+              <div className="h-8 w-8 bg-white rounded-full hover:bg-orange-600 text-red-500 hover:text-white flex items-center justify-center cursor-pointer">
                 <FaYoutube className="e  icon_social" />
               </div>
-              <div className="h-8 w-8 bg-white rounded-full flex hover:bg-orange-600  text-orange-600 hover:text-white items-center justify-center cursor-pointer">
+              <div className="h-8 w-8 bg-white rounded-full flex hover:bg-orange-600  text-red-500 hover:text-white items-center justify-center cursor-pointer">
                 <SiDiscord className="   icon_social" />
               </div>
             </div>

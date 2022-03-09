@@ -37,49 +37,51 @@ const PagesDropdown = () => {
                 Pages <FaChevronDown className="mt-1 ml-2" />
               </a>
             </button>
-            <div
-              ref={popoverDropdownRef}
-              className={
-                (dropdownPopoverShow ? "block " : "hidden ") +
-                "bg-white absolute float-left list-none text-left flex flex-col gap-4 py-8 w-48  "
-              }
-            >
-              <Link
-                href="/destination"
-                className="text-sm py-2 px-4 font-normal  w-full block "
-                onClick={(e) => e.preventDefault()}
+            <div className="my-7">
+              <div
+                ref={popoverDropdownRef}
+                className={
+                  (dropdownPopoverShow ? "block " : "hidden ") +
+                  "bg-white absolute float-left list-none  px-4 text-left flex flex-col gap-4 py-8 w-48  "
+                }
               >
-                <a className=" hover:text-orange-600 uppercase text-black">
-                  Gallery
-                </a>
-              </Link>
-              <Link
-                href="/"
-                className="text-sm py-2 mt-4 px-4 font-normal  w-full block"
-                onClick={(e) => e.preventDefault()}
-              >
-                <a className=" hover:text-orange-600 uppercase text-black">
-                  our guide
-                </a>
-              </Link>
-              <Link
-                href="/"
-                className="text-sm py-2 mt-4 px-4 font-normal  w-full block"
-                onClick={(e) => e.preventDefault()}
-              >
-                <a className=" hover:text-orange-600 uppercase text-black">
-                  faq
-                </a>
-              </Link>
-              <Link
-                href="/"
-                className="text-sm py-2 mt-4 px-4 font-normal  w-full block"
-                onClick={(e) => e.preventDefault()}
-              >
-                <a className=" hover:text-orange-600 uppercase text-black">
-                  404 page
-                </a>
-              </Link>
+                <Link
+                  href="/destination"
+                  className="text-sm py-2 px-4 font-normal  w-full block "
+                  onClick={(e) => e.preventDefault()}
+                >
+                  <a className=" hover:text-orange-600 uppercase text-black">
+                    Gallery
+                  </a>
+                </Link>
+                <Link
+                  href="/"
+                  className="text-sm py-2 mt-4 px-4 font-normal  w-full block"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  <a className=" hover:text-orange-600 uppercase text-black">
+                    our guide
+                  </a>
+                </Link>
+                <Link
+                  href="/"
+                  className="text-sm py-2 mt-4 px-4 font-normal  w-full block"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  <a className=" hover:text-orange-600 uppercase text-black">
+                    faq
+                  </a>
+                </Link>
+                <Link
+                  href="/"
+                  className="text-sm py-2 mt-4 px-4 font-normal  w-full block"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  <a className=" hover:text-orange-600 uppercase text-black">
+                    404 page
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

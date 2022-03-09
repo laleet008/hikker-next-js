@@ -11,14 +11,14 @@ const Blog = () => {
         <h1
           className="relative uppercase md:text-[100px] text-[60px] text-gray-200 font-bold tracking-tighter flex"
           data-aos="fade-right"
-          data-aos-duration="1000"
+          data-aos-duration="2000"
         >
           our blog
         </h1>
         <p
           className="absolute md:mt-16 md:block hidden  uppercase tracking-wider ml-2 font-bold text-xl md:text-3xl"
           data-aos="fade-left"
-          data-aos-duration="1000"
+          data-aos-duration="1500"
         >
           latest blog
         </p>
@@ -43,6 +43,7 @@ const Blog = () => {
                     alt=""
                     className="h-[320px] w-[300px]"
                     data-aos="flip-right"
+                    data-aos-duration="1000"
                   />
                   <div className="mt-7">
                     <h1 className="text-2xl font-bold w-[300px]">{title}</h1>
@@ -75,6 +76,7 @@ const Blog = () => {
                     alt=""
                     className="h-[320px] w-[300px]"
                     data-aos="flip-left"
+                    data-aos-duration="1000"
                   />
                   <div className="mt-7">
                     <h1 className="text-2xl font-bold w-[300px]">{title}</h1>

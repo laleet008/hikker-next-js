@@ -5,7 +5,7 @@ import { TiTick } from "react-icons/ti";
 const About = () => {
   return (
     <div className="m-16 flex justify-between">
-      <div data-aos="fade-right">
+      <div data-aos="fade-right" data-aos-duration="2000">
         <div className="flex gap-8">
           <FaQuoteLeft className="text-orange-600 text-6xl mt-2" />
           <h1 className="font-bold text-3xl w-[650px]">

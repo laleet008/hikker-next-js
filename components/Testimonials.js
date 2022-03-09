@@ -13,6 +13,7 @@ const Testimonials = () => {
       <div className="flex flex-col  items-center">
         <h1
           data-aos="fade-right"
+          data-aos-duration="2000"
           className="relative destination md:text-[100px] uppercase text-[60px] text-gray-200 font-bold tracking-tighter flex"
         >
           testimonials
@@ -20,6 +21,7 @@ const Testimonials = () => {
         <p
           className="absolute mt-12 tracking-wider md:block hidden  ml-2 font-bold  text-3xl"
           data-aos="fade-left"
+          data-aos-duration="2000"
         >
           WHAT THE SAY ABOUT HIKKER
         </p>
