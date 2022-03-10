@@ -19,7 +19,7 @@ const Blog = () => {
 
           <div className="flex  ">
             <div className="flex  w-full">
-              <div className="relative uppercase text-[180px] flex ml-[400px] mt-40 text-gray-600 font-medium">
+              <div className="relative uppercase text-[180px] flex ml-[400px] mt-40 text-gray-300 opacity-70 font-medium">
                 article
               </div>
               <div className="absolute flex flex-col  items-center mt-[260px] ml-[480px]">

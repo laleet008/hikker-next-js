@@ -42,7 +42,7 @@ const Dropdown = () => {
                 ref={popoverDropdownRef}
                 className={
                   (dropdownPopoverShow ? "block  " : "hidden ") +
-                  "bg-white absolute float-left list-none text-left px-4 flex flex-col gap-4 py-8 w-48  "
+                  "bg-white absolute float-left list-none text-left px-4 flex flex-col gap-4 py-4 w-48  "
                 }
               >
                 <Link

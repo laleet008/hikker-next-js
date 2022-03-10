@@ -11,6 +11,8 @@ import Journey from "../components/Journey";
 import Testimonials from "../components/Testimonials";
 // import Trip from "../components/Trip";
 import Blog from "../components/Blog";
+// import Video from "../components/Video";
+import Trip from "../components/Trip";
 
 export default function Home() {
   return (
@@ -22,7 +24,8 @@ export default function Home() {
       <Services />
       <Journey />
       <Testimonials />
-      {/* <Trip /> */}
+      {/* <Video /> */}
+      <Trip />
       <Blog />
     </Layout>
   );

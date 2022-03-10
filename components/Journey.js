@@ -15,7 +15,7 @@ const Journey = () => {
             JOURNEYS
           </h1>
           <p
-            className="absolute mt-12 hidden md:block tracking-wider ml-2 font-bold  text-3xl"
+            className="absolute mt-16 hidden md:block tracking-wider ml-2 font-bold  text-3xl"
             data-aos="fade-left"
             data-aos-duration="2000"
           >

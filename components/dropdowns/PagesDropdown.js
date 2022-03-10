@@ -42,7 +42,7 @@ const PagesDropdown = () => {
                 ref={popoverDropdownRef}
                 className={
                   (dropdownPopoverShow ? "block " : "hidden ") +
-                  "bg-white absolute float-left list-none  px-4 text-left flex flex-col gap-4 py-8 w-48  "
+                  "bg-white absolute float-left list-none  px-4 text-left flex flex-col gap-4 py-4 w-48  "
                 }
               >
                 <Link
