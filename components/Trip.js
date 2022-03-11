@@ -3,9 +3,16 @@ import Link from "next/link";
 
 const Trip = () => {
   return (
+<<<<<<< HEAD
     <div className="h-[600px] trip w-full flex  ">
       <video loop autoPlay className="relative w-full">
         <source src="video/hero-bg.mp4" type="video/mp4" />
+=======
+    <div className=" ">
+      <video loop autoPlay>
+        <source src="video/hero-bg.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+>>>>>>> 923a10532dd57bd901fa444401d0d7f3301089d8
       </video>
       <div className="absolute flex justify-center align-center flex-col items-center h-[600px] px-96  ">
         <h1 className="text-[32px] tracking-wider	 text-white">
