@@ -9,10 +9,9 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Journey from "../components/Journey";
 import Testimonials from "../components/Testimonials";
-// import Trip from "../components/Trip";
+import Trip from "../components/Trip";
 import Blog from "../components/Blog";
 // import Video from "../components/Video";
-import Trip from "../components/Trip";
 
 export default function Home() {
   return (

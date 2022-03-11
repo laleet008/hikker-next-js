@@ -46,7 +46,7 @@ const PagesDropdown = () => {
                 }
               >
                 <Link
-                  href="/destination"
+                  href="/journey"
                   className="text-sm py-2 px-4 font-normal  w-full block "
                   onClick={(e) => e.preventDefault()}
                 >
@@ -73,7 +73,7 @@ const PagesDropdown = () => {
                   </a>
                 </Link>
                 <Link
-                  href="/"
+                  href="/notfound"
                   className="text-sm py-2 mt-4 px-4 font-normal  w-full block"
                   onClick={(e) => e.preventDefault()}
                 >

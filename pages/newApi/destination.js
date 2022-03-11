@@ -23,7 +23,7 @@ const destination = [
   {
     id: 3,
     img: "https://images.pexels.com/photos/1402850/pexels-photo-1402850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    title: "Mount Jayawijaya, Papua - Indonesia",
+    title: "Mount Jayawijaya - Indonesia",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam",
 

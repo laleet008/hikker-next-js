@@ -10,16 +10,16 @@ const Hero = () => {
 
         <hr className=" absolute mt-28  border-gray-200 w-full" />
 
-        <div className="flex ml-32 ">
+        <div className="flex ml-32  ">
           <h1
-            className=" md:text-[210px] text-16  flex md:ml-[280px] ml-4 font-semibold mt-60  text-gray-500 opacity-20 "
+            className=" md:text-[210px] text-16  flex md:ml-[280px] ml-4  font-semibold mt-64 text-gray-500 opacity-20 "
             data-aos="fade-left"
             data-aos-anchor="#example-anchor"
             data-aos-duration="2000"
           >
             HIKKER
           </h1>
-          <div className="flex flex-col absolute md:mt-[360px] mt-8 ml-16  items-center">
+          <div className="flex flex-col absolute md:mt-[380px] mt-8 ml-16  items-center">
             <h1
               className="text-[55px] flex items-center w-full text-center text-white font-bold "
               data-aos="fade-right"

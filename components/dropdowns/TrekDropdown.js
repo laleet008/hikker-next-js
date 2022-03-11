@@ -55,7 +55,7 @@ const Dropdown = () => {
                   </a>
                 </Link>
                 <Link
-                  href="/"
+                  href="/details"
                   className="text-sm py-2 mt-4 px-4 font-normal  w-full block"
                   onClick={(e) => e.preventDefault()}
                 >
